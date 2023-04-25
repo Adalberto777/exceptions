@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="homeWork_1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_02/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_02/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_02/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_02/sours.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="seminar_02">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/FloatReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -53,13 +49,26 @@
     &quot;last_opened_file_path&quot;: &quot;D:/GeekBrains/exceptions&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.seminar_02.Main">
+  <component name="RunManager" selected="Application.homeWork_02.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork_01.Main" />
       <module name="exceptions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homeWork_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homeWork_02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork_02.Main" />
+      <module name="exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWork_02.Main" />
         <item itemvalue="Application.seminar_02.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -131,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682361498058</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="seminar_02">
+      <created>1682448970029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682448970030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +166,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="seminar_1" />
     <MESSAGE value="homeWork_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork_1" />
+    <MESSAGE value="seminar_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar_02" />
   </component>
 </project>
