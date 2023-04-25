@@ -38,3 +38,7 @@ build/
 .DS_Store
 /.idea/encodings.xml
 /Методичка Урок 1. Подходы к обработке ошибок в разных языках программирования.docx.pdf
+/Методичка Урок 2. Исключения и их обработка.docx.pdf
+
+
+/src/main/java/seminar_02/result.txt
