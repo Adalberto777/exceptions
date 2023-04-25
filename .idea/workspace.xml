@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="seminar_02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/FloatReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" afterDir="false" />
+    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="floatReader">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682448970030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="floatReader">
+      <created>1682451073914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682451073914</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +174,7 @@
     <MESSAGE value="seminar_1" />
     <MESSAGE value="homeWork_1" />
     <MESSAGE value="seminar_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar_02" />
+    <MESSAGE value="floatReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="floatReader" />
   </component>
 </project>
