@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="refactorCode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/StringReader.java" afterDir="false" />
+    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="stringReader">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCodeSecond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682453360565</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="stringReader">
+      <created>1682534005810</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682534005810</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +190,7 @@
     <MESSAGE value="seminar_02" />
     <MESSAGE value="floatReader" />
     <MESSAGE value="refactorCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactorCode" />
+    <MESSAGE value="stringReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="stringReader" />
   </component>
 </project>

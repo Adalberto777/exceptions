@@ -26,6 +26,8 @@ public class RefactorCode {
 
 
 
+
+
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Enter a integer value: ");
 //
