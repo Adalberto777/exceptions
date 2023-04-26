@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="floatReader">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCode.java" afterDir="false" />
+    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="refactorCode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/StringReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682451073914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactorCode">
+      <created>1682453360565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682453360565</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +181,7 @@
     <MESSAGE value="homeWork_1" />
     <MESSAGE value="seminar_02" />
     <MESSAGE value="floatReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="floatReader" />
+    <MESSAGE value="refactorCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactorCode" />
   </component>
 </project>
