@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="stringReader">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCodeSecond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWork_02/RefactorCode.java" afterDir="false" />
+    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="homeWork_2">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682534005810</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="homeWork_2">
+      <created>1682537800566</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537800566</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +195,7 @@
     <MESSAGE value="floatReader" />
     <MESSAGE value="refactorCode" />
     <MESSAGE value="stringReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="stringReader" />
+    <MESSAGE value="homeWork_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork_2" />
   </component>
 </project>
