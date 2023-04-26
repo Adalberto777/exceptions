@@ -23,6 +23,7 @@ public class FloatReader {
                 scanner.nextLine();
             }
         } while (!validInput);
+        scanner.close();
 
         System.out.println("You enter: " + value);
     }
