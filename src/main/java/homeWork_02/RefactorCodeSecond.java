@@ -10,9 +10,9 @@ public class RefactorCodeSecond {
             int a = 90;
             int b = 3;
             System.out.println(a / b);
-            printSum(23, 234);
+            printSum(null, 234);
             int[] abc = { 1, 2 };
-            abc[3] = 9;
+            abc[1] = 9;
         } catch (ArithmeticException ex) {
             System.out.println("Деление на ноль!" + ex);
         } catch (NullPointerException ex) {
