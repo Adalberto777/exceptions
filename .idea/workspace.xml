@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="homeWork_2 end">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/ArrayBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/ByZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/CheckArrayBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/DoSomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/FileNotFoundEX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/MyArraySizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_03/NullEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="66d5efdc-2748-4a67-bdc7-92d9a16baca4" name="Changes" comment="seminar_3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_03/ReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWork_03/WriteData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -61,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.seminar_03.Main">
+  <component name="RunManager" selected="Application.homeWork_03.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork_01.Main" />
       <module name="exceptions" />
@@ -81,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homeWork_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homeWork_03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork_03.Main" />
+      <module name="exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWork_03.Main" />
         <item itemvalue="Application.seminar_03.Main" />
         <item itemvalue="Application.homeWork_02.Main" />
         <item itemvalue="Application.seminar_02.Main" />
@@ -223,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682606788130</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="seminar_3">
+      <created>1682965789843</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682965789843</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +261,7 @@
     <MESSAGE value="stringReader" />
     <MESSAGE value="homeWork_2" />
     <MESSAGE value="homeWork_2 end" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork_2 end" />
+    <MESSAGE value="seminar_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar_3" />
   </component>
 </project>
