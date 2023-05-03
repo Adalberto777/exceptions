@@ -1,32 +1,47 @@
 package homeWork_03;
 
+import java.text.ParseException;
 import java.util.Scanner;
 
+import static homeWork_03.DataReader.*;
 import static homeWork_03.Person.*;
-import static homeWork_03.ReadData.*;
+import static homeWork_03.ReadInput.*;
 import static homeWork_03.WriteData.*;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner01 = new Scanner(System.in);
-        System.out.println("Create new Person? y/n: ");
-        char answer01 = scanner01.next().charAt(0);
+    public static void main(String[] args) throws ParseException {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Menu:");
+        System.out.println("1. Create a new record: 1");
+        System.out.println("2. Find an entry in:    2");
+        System.out.println("3. Exit:                3");
 
-        if (answer01 == 'y'){
-            Person person = addPerson(readName(), readSurname(), readPatronymic(), readDateOfBirth(), readTelephone(), readSex());
-            System.out.printf(person.toString());
-            System.out.println();
-            System.out.printf("Save Person %s y/n?: ", person.getSurname());
+        int answer01 = scanner.nextInt();
+        switch (answer01){
+            case 1:
+                Person person = addPerson(readName(), readSurname(), readPatronymic(), readDateOfBirth(), readTelephone(), readSex());
+                System.out.printf(person.toString());
+                System.out.println();
 
-            Scanner scanner02 = new Scanner(System.in);
-            char answer02 = scanner02.next().charAt(0);
-            if (answer02 == 'y'){
-                writeData(person);
-            }else {
+                System.out.printf("Save Person %s y/n?: ", person.getSurname());
+                char answer02 = scanner.next().charAt(0);
+                if (answer02 == 'y'){
+                    writeData(person);
+                }else {
+                    System.out.println("Goodbye");
+                }
+                break;
+            case  2:
+                personFinder(readName(), dataReader(readSurname()));
+                break;
+            case  3:
                 System.out.println("Goodbye");
-            }
-        }else {
-            System.out.println("Goodbye");
+                break;
+            default:
+                System.out.println("You have to enter a number from 1 to 3");
+                break;
         }
+
+
     }
 }

@@ -4,7 +4,7 @@ public class Person {
     private String name;
     private String surname;
     private String patronymic;
-    private String date_of_birth;
+    private String dateOfBirth;
     private String telephone;
     private char sex;
 
@@ -13,14 +13,26 @@ public class Person {
         return  "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", patronymic='" + patronymic + '\'' +
-                ", date_of_birth='" + date_of_birth + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
                 ", telephone=" + telephone +
                 ", sex=" + sex;
     }
 
-    public static Person addPerson(String name, String surname, String patronymic, String date_of_birth, String telephone, char sex){
+    /**
+     *  the method creates a person class
+     *
+     * @param name name of a person
+     * @param surname surname of a person
+     * @param patronymic patronymic of a person
+     * @param dateOfBirth dateOfBirth of a person
+     * @param telephone telephone number of a person
+     * @param sex sex of a person
+     *
+     * @return a person class
+     */
+    public static Person addPerson(String name, String surname, String patronymic, String dateOfBirth, String telephone, char sex){
 
-        Person person = new Person(name, surname, patronymic, date_of_birth, telephone, sex);
+        Person person = new Person(name, surname, patronymic, dateOfBirth, telephone, sex);
 
         return person;
     }
@@ -29,7 +41,7 @@ public class Person {
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
-        this.date_of_birth = date_of_birth;
+        this.dateOfBirth = date_of_birth;
         this.telephone = telephone;
         this.sex = sex;
     }
@@ -58,12 +70,12 @@ public class Person {
         this.patronymic = patronymic;
     }
 
-    public String getDate_of_birth() {
-        return date_of_birth;
+    public String getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDate_of_birth(String date_of_birth) {
-        this.date_of_birth = date_of_birth;
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
     public String getTelephone() {
